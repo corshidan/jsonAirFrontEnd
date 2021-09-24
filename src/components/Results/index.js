@@ -23,7 +23,7 @@ export default function Results({ searchState }) {
 	useEffect(() => {
 		setTimeout(() => {
 			fetch(
-				`https://jsonair.herokuapp.com/?dep=${searchState.departingAirport}&arr=${searchState.arrivalAirport}`
+				`https://flight-search-tool.herokuapp.com/?dep=${searchState.departingAirport}&arr=${searchState.arrivalAirport}`
 			)
 				.then((res) => {
 					if (!res.ok) {
