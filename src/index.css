@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.cdnfonts.com/css/skyfont');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* div {
+	border: 1px solid black;
+} */
+html {
+	height: 100%;
+	overflow: auto;
+}
+
+@keyframes para {
+	100% {
+		background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
+	}
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-family: monospace, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+}
+
+code {
+	font-family: monospace, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+}
+
+.bg {
+	animation: slide 3s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg, #aab44dd7 50%, #fed53c 50%);
+	bottom: 0;
+	left: -50%;
+	opacity: 0.5;
+	position: fixed;
+	right: -50%;
+	top: 0;
+	z-index: -1;
+}
+
+.bg2 {
+	animation-direction: alternate-reverse;
+	animation-duration: 4s;
+}
+
+.bg3 {
+	animation-duration: 5s;
+}
+/* 
+#worldmap {
+	padding: 1em 0 0 10em;
+	margin: 0 auto;
+}
+#worldmap svg {
+	background: rgba(50, 167, 224, 0.4);
+	border-radius: 200px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.land {
+	fill: rgba(4, 2, 2, 0.72);
+}
+#globesarecool {
+	color: #fff;
+} */
+.fillPage {
+	width: 80%;
+	margin: auto;
+	height: 83vh;
+	font-size: 5em;
+	font-weight: bold;
+	color: rgba(9, 4, 56, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes slide {
+	0% {
+		transform: translateX(-25%);
+	}
+	100% {
+		transform: translateX(25%);
+	}
+}

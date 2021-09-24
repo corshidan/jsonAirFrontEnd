@@ -1,0 +1,136 @@
+.container {
+	width: 75%;
+	height: 95vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+	flex-direction: column;
+	padding: 1em 3em 1em;
+	background-color: rgba(176, 177, 175, 0.295);
+	border-radius: 0.25em;
+	box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+}
+.topHomePage {
+	display: flex;
+	flex-direction: row;
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+.globe {
+	height: 50%;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	/* align-self: center; */
+	background-color: rgba(9, 4, 56, 0.8);
+	border-radius: 25px;
+	padding: 4em 4em 6em;
+	width: 90%;
+}
+.form button {
+	margin-top: 2em;
+}
+.form label {
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+}
+.right {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	width: 50%;
+	height: 100%;
+	flex-direction: column;
+}
+.form button a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: hsl(100, 9%, 14%);
+}
+/* .left .right {
+	width: 50%;
+} */
+.departing {
+	color: white;
+	padding-bottom: 1em;
+	font-weight: bold;
+	font-size: larger;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.departing select {
+	padding-bottom: 2em;
+}
+.arrival {
+	color: white;
+	padding-bottom: 1em;
+	padding-top: 1.5em;
+	font-weight: bold;
+	font-size: larger;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dropdownDeparture {
+	border-radius: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	padding: 0.3em;
+}
+.dropdownArrival {
+	border-radius: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	padding: 0.3em;
+}
+.flightsButton {
+	border-radius: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	background-color: rgba(254, 213, 60, 1);
+	padding: 0.3em;
+}
+.tagLine {
+	display: flex;
+	flex-direction: column;
+	/* align-self: center; */
+	/* background-color: rgba(254, 213, 60, 0.6); */
+	/* background-color: white; */
+	/* padding: 1em; */
+	text-align: center;
+	border-radius: 25px;
+	width: 100%;
+	position: relative;
+	font-size: 3em;
+	font-family: 'Bebas Neue', Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	/* margin-top: 100px; */
+}
+.tagLine {
+}
+.introduction {
+	display: flex;
+	flex-direction: column;
+	/* align-self: center; */
+	background-color: rgba(9, 4, 56, 0.6);
+	color: rgba(254, 213, 60, 1);
+	margin-top: 30px;
+	padding: 2em;
+	width: 80%;
+	position: relative;
+	border-radius: 30px;
+	font-size: large;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introduction p {
+	margin-bottom: 0.5em;
+}
