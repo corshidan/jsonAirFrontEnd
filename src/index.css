@@ -53,7 +53,7 @@ code {
 .bg3 {
 	animation-duration: 5s;
 }
-/* 
+
 #worldmap {
 	padding: 1em 0 0 10em;
 	margin: 0 auto;
@@ -63,10 +63,10 @@ code {
 	border-radius: 200px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-.land {
+/* .land {
 	fill: rgba(4, 2, 2, 0.72);
-}
-#globesarecool {
+} */
+/* #globesarecool {
 	color: #fff;
 } */
 .fillPage {
